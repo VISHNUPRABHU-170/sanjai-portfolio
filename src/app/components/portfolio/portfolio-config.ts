@@ -1,5 +1,8 @@
 import { HeaderComponentModel } from "../header/header.model";
+<<<<<<< HEAD
 import { HomeComponentModel } from "../home/home.model";
+=======
+>>>>>>> 2b319afda3fefcf2153cbeced5bb9d2b499f2fbc
 
 
 export const HEADER_CONFIG: HeaderComponentModel = {
