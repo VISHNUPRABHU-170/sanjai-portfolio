@@ -1,0 +1,9 @@
+@import '/src/styles/variables';
+
+.navbar {
+    padding: $navbar-padding;
+    display: flex;
+    gap: $navbar-flex-gap;
+    background-color: $navbar-background-color;
+    border-radius: $navbar-border-radius;
+}

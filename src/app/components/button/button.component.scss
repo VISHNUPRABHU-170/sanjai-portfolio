@@ -1,0 +1,29 @@
+@import '/src/styles/variables';
+
+.button {
+    background-color: $button-background-color;
+    padding: $button-padding;
+    border-radius: $button-border-radius;
+    display: flex;
+    align-items: center;
+    gap: $button-flex-gap;
+    cursor: pointer;
+
+    &:hover {
+        color: $button-active-text-color;
+        background-color: $navbar-button-active-background-color;
+    }
+}
+
+.nav-link {
+    background-color: $button-background-color;
+    padding: $button-padding;
+    border: $navbar-button-border;
+    border-radius: $button-border-radius;
+    cursor: pointer;
+}
+
+.active {
+    color: $button-active-text-color;
+    background-color: $button-active-background-color;
+}
