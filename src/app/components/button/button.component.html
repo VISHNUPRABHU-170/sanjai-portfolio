@@ -1,0 +1,20 @@
+<div class="container">
+
+    <ng-container *ngIf="config">
+
+        <button [class]="config.className || ''" [ngClass]="{'active': config.isActive}" (click)="handleCLick()" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+
+            <span>{{config.text}}</span>
+
+            <ng-container *ngIf="config.icon">
+
+                <app-icon [config]="config.icon"></app-icon>
+
+            </ng-container>
+
+        </button>
+
+    </ng-container>
+    
+</div>
+

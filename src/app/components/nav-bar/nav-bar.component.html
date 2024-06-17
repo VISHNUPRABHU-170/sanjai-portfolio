@@ -1,0 +1,9 @@
+<div class="navbar" *ngIf="config">
+
+    <ng-container *ngFor="let link of config.links">
+
+        <app-button [config]="link" (event)="handleEvent($event)"></app-button>
+        
+    </ng-container>
+    
+</div>

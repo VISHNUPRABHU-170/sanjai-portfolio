@@ -1,0 +1,23 @@
+<div class="container" *ngIf="config">
+
+  <!-- <ng-container *ngIf="config.subContent">
+
+    <span class="sub-content">
+
+      {{config.subContent}}
+
+    </span>
+
+  </ng-container> -->
+
+  <ng-container *ngIf="config.content">
+
+    <span class="content">
+
+      {{config.content}}
+
+    </span>
+
+  </ng-container>
+
+</div>
